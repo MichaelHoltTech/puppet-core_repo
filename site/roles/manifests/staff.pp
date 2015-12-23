@@ -2,7 +2,5 @@
 
 class roles::staff {
   include ::profiles::dock::staff_dock
-  if $computer_location {
-    notify { "computer location exists":}
-  }
+
 }
